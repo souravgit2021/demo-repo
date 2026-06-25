@@ -32,5 +32,11 @@ pipeline {
                 // Your build, test, or deployment commands go here
             }
         }
+
+        stage("Greetings"){
+            steps{
+                 echo "Hellow From Release Version 3"
+            }
+        }
     }
 }
